@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "script"
+version = "0.1.0"
+description = ""
+authors = ["Kidy Lee <kidylee@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.5"
+sqlmodel = "^0.0.8"
+alembic = "^1.10.1"
+mysql-connector-python = "^8.0.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
