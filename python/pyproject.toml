@@ -8,9 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 pydantic = "^1.10.5"
-sqlmodel = "^0.0.8"
 alembic = "^1.10.1"
 mysql-connector-python = "^8.0.32"
+sqlmodel = "^0.0.8"
 
 
 [build-system]

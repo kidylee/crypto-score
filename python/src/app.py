@@ -2,7 +2,7 @@ import csv
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 
-from src.model import ReputationScore
+from model import ReputationScore
 
 engine = create_engine("mysql+mysqlconnector://example_user:example_user_password@localhost:3306/example_db")
 
